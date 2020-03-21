@@ -1,16 +1,16 @@
 # S3_update_fact_from_dimension
 Updates large partitioned file from dimension file by one column join key.
 ## Fact was
-50000,campaign_00,video_0,0.5,metadata 1
-50080,campaign_00,video_0,0.1,metadata 1
+    50000,campaign_00,video_0,0.5,metadata 1
+    50080,campaign_00,video_0,0.1,metadata 1
 
 # Fact now
-50000,campaign_00,video_0,0.5,metadata 2
-50080,campaign_00,video_0,0.1,metadata 2
+    50000,campaign_00,video_0,0.5,metadata 2
+    50080,campaign_00,video_0,0.1,metadata 2
 
 # Dimension
-campaign_00,video campaign "xvbcjfz",metadata 2
-campaign_01,video campaign "cjzfybq",metadata 2
+    campaign_00,video campaign "xvbcjfz",metadata 2
+    campaign_01,video campaign "cjzfybq",metadata 2
 
 ## Exec log
 ```
